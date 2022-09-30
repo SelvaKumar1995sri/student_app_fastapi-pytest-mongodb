@@ -104,5 +104,5 @@ def update_student(roll_no, student: Student):
         print("error on viewing data " + str(e))
 
 
-if __name__ == '__main__':
-    uvicorn.run("main:app", reload=True, access_log=False)
+# if __name__ == '__main__':
+#     uvicorn.run("main:app", reload=True, access_log=False)
